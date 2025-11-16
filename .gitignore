@@ -1,0 +1,10 @@
+# Java build output
+/bin/
+*.class
+
+# VSCode
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db

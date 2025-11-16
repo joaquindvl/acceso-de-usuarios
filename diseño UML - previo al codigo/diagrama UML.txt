@@ -1,0 +1,19 @@
++---------------------------------------------+
+|                 entities                    |
++---------------------------------------------+
+
+   +-------------------+         1     1      +------------------------+
+   |     Usuario       |--------------------->|    CredencialAcceso   |
+   +-------------------+                      +------------------------+
+   | - id : Long       |                      | - id : Long            |
+   | - nombre : String |                      | - username : String    |
+   | - email : String  |                      | - password : String    |
+   | - eliminado : boolean                    | - eliminado : boolean  |
+   | - credencial : CredencialAcceso          |                        |
+   +-------------------+                      +------------------------+
+   | + Usuario()       |                      | + CredencialAcceso()   |
+   | + Usuario(id,nom,email,elim,cred)        | + CredencialAcceso(id,uname,pass,elim) |
+   | + get/set...      |                      | + get/set...           |
+   | + toString()      |                      | + toString()           |
+   +-------------------+                      +------------------------+
+
